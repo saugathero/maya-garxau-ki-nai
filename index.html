@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Will You Go On A Date With Me?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Screen 1 -->
+    <div class="card screen" id="welcome-screen">
+
+        <h1>I have a question for you ❤️</h1>
+
+        <p>
+            I made this little website just for you.
+        </p>
+
+        <button onclick="showQuestion()">
+            Continue
+        </button>
+
+    </div>
+
+
+    <!-- Screen 2 -->
+    <div class="card screen hidden" id="question-screen">
+
+        <h1>Would you like to go on a date with me? 🌹</h1>
+
+        <p>
+            Choose carefully 👀
+        </p>
+
+        <div class="button-group">
+
+            <button class="yes-button" onclick="sayYes()">
+                Yes ❤️
+            </button>
+
+            <button class="maybe-button" onclick="sayMaybe()">
+                Maybe 👀
+            </button>
+
+            <button
+                class="no-button"
+                id="no-button"
+                onmouseover="moveNoButton()"
+                ontouchstart="moveNoButton()"
+            >
+                No 🙂
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
