@@ -7,7 +7,7 @@ function showQuestion() {
 }
 function sayYes() {
 
-    alert("Yay! ❤️");
+    alert("Yay! 😘😘❤️");
 
 }
 
@@ -45,12 +45,9 @@ function moveNoButton() {
 
 
     const messages = [
-        "No 🙂",
-        "Nice try 😏",
-        "Too slow 😂",
-        "Are you sure? 👀",
-        "Try again 😌",
-        "Almost! 😂"
+        "Nein 🙂",
+        "sicher? 👀",
+        
     ];
 
 
